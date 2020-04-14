@@ -1,156 +1,151 @@
-@font-face{
-    font-family:'avenir';
-    src: url('../../../static/fonts/avenir.otf');
+@font-face {
+  font-family: "avenir";
+  src: url("../../../assets/fonts/avenir.otf");
 }
-@font-face{
-    font-family:'avenir_bold';
-    src: url('../../../static/fonts/avenir_bold.otf');
-}
-
-.div_cards{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-#dia_sim{
-    font-family: 'avenir_bold';
-}
-.div_cards p{
-    padding: 10px 10%;
-    font-family: 'avenir';
+@font-face {
+  font-family: "avenir_bold";
+  src: url("../../../assets/fonts/avenir_bold.otf");
 }
 
-#container_cards{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
+.div_cards {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dia_sim {
+  font-family: "avenir_bold";
+}
+.div_cards p {
+  padding: 10px 10%;
+  font-family: "avenir";
 }
 
-#item_cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 90%;
-    
+#container_cards {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
 }
 
-#card_1{
-    display: flex;
-    flex-direction: row;
-    
-    background: #EFCFDF;
-    height: 47%;
-    width: 80%;
-    margin-left: 10%;
-    border-radius: 20px;
-    box-shadow: 0px 3px 6px rgb(214, 213, 213);
-    padding: 20px;
+#item_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90%;
 }
 
-#icon_div{
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#card_1 {
+  display: flex;
+  flex-direction: row;
+
+  background: #efcfdf;
+  height: 47%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgb(214, 213, 213);
+  padding: 20px;
 }
 
-#info{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-between;
+#icon_div {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
 }
 /* #info span{
     padding: 4px;
 } */
-#cerimony{
-    color: #0E0838;
-    opacity: 0.6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+#cerimony {
+  color: #0e0838;
+  opacity: 0.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
-#time{
-    color:#0E0838 ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+#time {
+  color: #0e0838;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-#place{
-    color:#0E0838;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-#adress{
-    color:#0E0838;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-
-}
-#btns_info{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#btns_info button{
-    width: 49%;
-    padding: 10px;
-    border-radius: 25px;
-}
-#btns_info button:hover{
-    cursor:pointer;
-}
-#waze_link{
-    color: #9CC4D1;
-    text-decoration: none;
-    font-size: large;
-    font-family: 'avenir';
-}
-#maps_link{
-    color: #449C72;
-    text-decoration: none;
-    font-size: large;
-    font-family: 'avenir';
-}
-#card_2{
-    display: flex;
-    background: #FFF;
-    flex-direction: row;
-    padding: 10px;
-    height: 30%;
-    width: 80%;
-    margin-right: 10%;
-    border-radius: 20px;
-    box-shadow: 0px 3px 6px rgb(214, 213, 213);
-}
-#info_suit{
-
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-evenly;
-
-}
-#suit{
-    font-family: 'avenir_bold';
-    color:#0B0E35;
-}
-#suit_tips{
-    font-family: 'avenir';
+#place {
+  color: #0e0838;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
-#uber{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+#adress {
+  color: #0e0838;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+#btns_info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#btns_info button {
+  width: 49%;
+  padding: 10px;
+  border-radius: 25px;
+}
+#btns_info button:hover {
+  cursor: pointer;
+}
+#waze_link {
+  color: #9cc4d1;
+  text-decoration: none;
+  font-size: large;
+  font-family: "avenir";
+}
+#maps_link {
+  color: #449c72;
+  text-decoration: none;
+  font-size: large;
+  font-family: "avenir";
+}
+#card_2 {
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  padding: 10px;
+  height: 30%;
+  width: 80%;
+  margin-right: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgb(214, 213, 213);
+}
+#info_suit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+}
+#suit {
+  font-family: "avenir_bold";
+  color: #0b0e35;
+}
+#suit_tips {
+  font-family: "avenir";
+}
+
+#uber {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
