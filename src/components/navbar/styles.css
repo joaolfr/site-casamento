@@ -1,0 +1,108 @@
+@font-face{
+    font-family:'sf';
+    src: url('../../static/fonts/sanFrancisco.otf');
+}
+@font-face{
+    font-family:'sf_script';
+    src: url('../../static/fonts/sanFranciscoScript.otf');
+}
+@font-face{
+    font-family:'avenir';
+    src: url('../../static/fonts/avenir.otf');
+}
+@font-face{
+    font-family:'avenir_bold';
+    src: url('../../static/fonts/avenir_bold.otf');
+}
+.app{
+    height: 28vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* background: url('../../static/images/plano.png');
+    background-position: center;
+    background-size: cover; */
+}
+
+
+#JJ{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#JJ #joao{
+    position: absolute;
+    top: 15px;
+    font-family: 'sf';
+    font-size: 73px;
+    color: #0E0838;
+}
+#JJ #jessica{
+    position: absolute;
+    top: 43px;
+    font-family: 'sf_script';
+    font-size: 97px;
+    color: #EBA4C9;
+
+
+}
+
+#data{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6%;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 45%;
+    /* margin: 0 20px 0 20px; */
+    border:1px solid #EBA4C9;
+}
+#data span{
+    min-width:170px ;
+    margin: 0 15px;
+    color: #EBA4C9;
+    font-family: 'avenir';
+    text-align: center;
+}
+
+.app nav{
+    height: 24%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'avenir';
+    margin-top: 20px;
+}
+
+.app a{
+    text-decoration: none;
+    color:#0E0838;
+
+}
+
+li{
+    list-style-type: none;
+    font-family: 'avenir';
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#confirme_presenca{
+    font-family: 'avenir_bold';
+    color:#0E0838;
+}
+
+
+@media screen and (max-width:450px){
+    #JJ{
+        height: 70%;
+    }
+}
