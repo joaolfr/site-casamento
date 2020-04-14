@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 
 import ChurchIcon from "../../../assets/icons/IGREJA.png";
-import CameraIcon from "../../../assets/icons/CAMERA.png";
 import Reception from "../../../assets/icons/RECEPCAO.png";
 import Suit from "../../../assets/icons/TRAJE.png";
 import "./styles.css";

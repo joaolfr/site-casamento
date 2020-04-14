@@ -1,20 +1,21 @@
-import React from 'react'
-import { Router } from '@reach/router'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import './App.css';
-import Navbar from './components/navbar'
-import Home from './pages/home'
-import Historias from './pages/historias'
+import "./App.css";
+import Navbar from "./components/navbar";
+
+import Routes from "./routes";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      
-      <Router>
-        <Home path="/" />
-        <Historias path="historias" />
-      </Router>
+      <Routes />
+
+      {/* <Router> */}
+      {/* <Home path="/" /> */}
+      {/* <Historias path="historias" /> */}
+      {/* </Router> */}
     </div>
   );
 }
