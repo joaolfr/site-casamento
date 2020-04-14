@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/site-casamento/static/css/main.60643e02.chunk.css",
-    "main.js": "/site-casamento/static/js/main.de3514b0.chunk.js",
-    "main.js.map": "/site-casamento/static/js/main.de3514b0.chunk.js.map",
+    "main.js": "/site-casamento/static/js/main.4e52e806.chunk.js",
+    "main.js.map": "/site-casamento/static/js/main.4e52e806.chunk.js.map",
     "runtime-main.js": "/site-casamento/static/js/runtime-main.0f195b02.js",
     "runtime-main.js.map": "/site-casamento/static/js/runtime-main.0f195b02.js.map",
-    "static/js/2.7201203f.chunk.js": "/site-casamento/static/js/2.7201203f.chunk.js",
-    "static/js/2.7201203f.chunk.js.map": "/site-casamento/static/js/2.7201203f.chunk.js.map",
+    "static/js/2.768e1e66.chunk.js": "/site-casamento/static/js/2.768e1e66.chunk.js",
+    "static/js/2.768e1e66.chunk.js.map": "/site-casamento/static/js/2.768e1e66.chunk.js.map",
     "index.html": "/site-casamento/index.html",
-    "precache-manifest.1cf9f373f558ec25d41157d2e5ef4839.js": "/site-casamento/precache-manifest.1cf9f373f558ec25d41157d2e5ef4839.js",
+    "precache-manifest.a9e1920126b5edc88c7319b9cce0437e.js": "/site-casamento/precache-manifest.a9e1920126b5edc88c7319b9cce0437e.js",
     "service-worker.js": "/site-casamento/service-worker.js",
     "static/css/main.60643e02.chunk.css.map": "/site-casamento/static/css/main.60643e02.chunk.css.map",
-    "static/js/2.7201203f.chunk.js.LICENSE": "/site-casamento/static/js/2.7201203f.chunk.js.LICENSE",
+    "static/js/2.768e1e66.chunk.js.LICENSE": "/site-casamento/static/js/2.768e1e66.chunk.js.LICENSE",
     "static/media/RECEPCAO.png": "/site-casamento/static/media/RECEPCAO.9d64c83c.png",
     "static/media/styles.css": "/site-casamento/static/media/sanFranciscoScript.fcae4bc3.otf",
     "static/media/plano.png": "/site-casamento/static/media/plano.24120372.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0f195b02.js",
-    "static/js/2.7201203f.chunk.js",
+    "static/js/2.768e1e66.chunk.js",
     "static/css/main.60643e02.chunk.css",
-    "static/js/main.de3514b0.chunk.js"
+    "static/js/main.4e52e806.chunk.js"
   ]
 }
