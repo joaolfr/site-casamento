@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/site-casamento/static/css/main.60643e02.chunk.css",
-    "main.js": "/site-casamento/static/js/main.e1946af2.chunk.js",
-    "main.js.map": "/site-casamento/static/js/main.e1946af2.chunk.js.map",
-    "runtime-main.js": "/site-casamento/static/js/runtime-main.fd205738.js",
-    "runtime-main.js.map": "/site-casamento/static/js/runtime-main.fd205738.js.map",
-    "static/js/2.c7bf2740.chunk.js": "/site-casamento/static/js/2.c7bf2740.chunk.js",
-    "static/js/2.c7bf2740.chunk.js.map": "/site-casamento/static/js/2.c7bf2740.chunk.js.map",
+    "main.css": "/site-casamento/static/css/main.c294a01d.chunk.css",
+    "main.js": "/site-casamento/static/js/main.4394f445.chunk.js",
+    "main.js.map": "/site-casamento/static/js/main.4394f445.chunk.js.map",
+    "runtime-main.js": "/site-casamento/static/js/runtime-main.0f195b02.js",
+    "runtime-main.js.map": "/site-casamento/static/js/runtime-main.0f195b02.js.map",
+    "static/js/2.ef703c11.chunk.js": "/site-casamento/static/js/2.ef703c11.chunk.js",
+    "static/js/2.ef703c11.chunk.js.map": "/site-casamento/static/js/2.ef703c11.chunk.js.map",
+    "66a1e11021ebf86d277341d4a1e9c418.png": "/site-casamento/66a1e11021ebf86d277341d4a1e9c418.png",
+    "859c55d26b3ee4dd3728e182f5df3b81.png": "/site-casamento/859c55d26b3ee4dd3728e182f5df3b81.png",
+    "d04d3fcf5278b2d5a1d15171536034ab.png": "/site-casamento/d04d3fcf5278b2d5a1d15171536034ab.png",
+    "d9a0dfe5a14a2225ad0edfea9c71c629.png": "/site-casamento/d9a0dfe5a14a2225ad0edfea9c71c629.png",
+    "fe02675b9cad22a94aff93883c9b0999.png": "/site-casamento/fe02675b9cad22a94aff93883c9b0999.png",
     "index.html": "/site-casamento/index.html",
-    "precache-manifest.9b5fd3d619a7d93d7f165266c75b7da3.js": "/site-casamento/precache-manifest.9b5fd3d619a7d93d7f165266c75b7da3.js",
+    "precache-manifest.0174393e265f96d6f08626e3cff75413.js": "/site-casamento/precache-manifest.0174393e265f96d6f08626e3cff75413.js",
     "service-worker.js": "/site-casamento/service-worker.js",
-    "static/css/main.60643e02.chunk.css.map": "/site-casamento/static/css/main.60643e02.chunk.css.map",
-    "static/js/2.c7bf2740.chunk.js.LICENSE": "/site-casamento/static/js/2.c7bf2740.chunk.js.LICENSE",
-    "static/media/RECEPCAO.png": "/site-casamento/static/media/RECEPCAO.9d64c83c.png",
+    "static/css/main.c294a01d.chunk.css.map": "/site-casamento/static/css/main.c294a01d.chunk.css.map",
+    "static/js/2.ef703c11.chunk.js.LICENSE": "/site-casamento/static/js/2.ef703c11.chunk.js.LICENSE",
+    "static/media/RECEPCAO.9d64c83c.png": "/site-casamento/static/media/RECEPCAO.9d64c83c.png",
     "static/media/styles.css": "/site-casamento/static/media/sanFranciscoScript.fcae4bc3.otf",
-    "static/media/plano.png": "/site-casamento/static/media/plano.24120372.png"
+    "static/media/plano.24120372.png": "/site-casamento/static/media/plano.24120372.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd205738.js",
-    "static/js/2.c7bf2740.chunk.js",
-    "static/css/main.60643e02.chunk.css",
-    "static/js/main.e1946af2.chunk.js"
+    "static/js/runtime-main.0f195b02.js",
+    "static/js/2.ef703c11.chunk.js",
+    "static/css/main.c294a01d.chunk.css",
+    "static/js/main.4394f445.chunk.js"
   ]
 }
