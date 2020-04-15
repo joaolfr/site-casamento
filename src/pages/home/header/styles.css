@@ -1,5 +1,9 @@
+#header_container {
+  width: 100%;
+  text-align: center;
+}
 #subtracao {
-  width: 70%;
+  width: 80%;
 }
 
 @media screen and (max-width: 600px) {

@@ -6,10 +6,10 @@ import "./styles.css";
 
 function Home() {
   const [navItem, setNavItem] = useState(1);
-
   const NavItem = styled.span`
     font-weight: ${(props) => (props.item === navItem ? "700" : "100")};
   `;
+
   return (
     <div className="app">
       <div id="JJ">
