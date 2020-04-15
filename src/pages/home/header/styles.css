@@ -1,4 +1,9 @@
-#subtracao{
-    width: 70%;
-    
+#subtracao {
+  width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  #subtracao {
+    display: none;
+  }
 }

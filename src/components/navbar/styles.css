@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @font-face {
   font-family: "sf";
   src: url("../../assets/fonts/sanFrancisco.otf");
@@ -14,24 +15,22 @@
   font-family: "avenir_bold";
   src: url("../../assets/fonts/avenir_bold.otf");
 }
+
 .app {
-  height: 28vh;
   width: 100vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  /* background: url('../../static/images/plano.png');
-    background-position: center;
-    background-size: cover; */
 }
 
 #JJ {
-  height: 70%;
+  height: 150px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 #JJ #joao {
   position: absolute;
@@ -40,6 +39,7 @@
   font-size: 73px;
   color: #0e0838;
 }
+
 #JJ #jessica {
   position: absolute;
   top: 43px;
@@ -52,7 +52,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 6%;
+  /* height: 6%; */
   justify-content: center;
   align-items: center;
 }
@@ -70,18 +70,43 @@ hr {
 }
 
 .app nav {
-  height: 24%;
+  /* height: 24%; */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: "avenir";
   margin-top: 20px;
+}
+#end_menu {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .app nav {
+    display: flex;
+    flex-direction: column;
+    background: rgb(235, 166, 201, 0.1);
+  }
+  #end_menu {
+    display: block;
+    width: 90% !important;
+    opacity: 0.3 !important;
+    margin: 10px 0;
+  }
 }
 
 .app a {
   text-decoration: none;
   color: #0e0838;
+  font-family: "Montserrat";
+  border: 2px solid transparent;
+  margin: 10px;
+}
+.app a:hover {
+  border-bottom: 2px solid #0e0838;
+  transition: 0.2s;
+}
+.app a:not(:hover) {
+  transition: 0.2s;
 }
 
 li {
@@ -98,6 +123,6 @@ li {
 
 @media screen and (max-width: 450px) {
   #JJ {
-    height: 70%;
+    /* height: 70%; */
   }
 }

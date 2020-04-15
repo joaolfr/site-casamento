@@ -14,6 +14,11 @@
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 600px) {
+  .div_cards {
+    height: 100%;
+  }
+}
 #dia_sim {
   font-family: "avenir_bold";
 }
@@ -24,10 +29,18 @@
 
 #container_cards {
   height: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  padding: 2%;
+  /* padding: 2%; */
+}
+
+@media screen and (max-width: 600px) {
+  #container_cards {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #item_cards {
@@ -35,7 +48,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 90%;
+  height: 100%;
+  padding: 20px 0;
 }
 
 #card_1 {
@@ -50,12 +64,31 @@
   box-shadow: 0px 3px 6px rgb(214, 213, 213);
   padding: 20px;
 }
-
+@media screen and (max-width: 600px) {
+  #card_1 {
+    margin: 10px 0;
+  }
+  #item_cards {
+    width: 100%;
+  }
+}
 #icon_div {
   width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#icon_div img {
+  width: 80px;
+  height: 180px;
+  max-height: 80%;
+  max-width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  #icon_div img {
+    max-height: 50%;
+  }
 }
 
 #info {
@@ -63,7 +96,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /* #info span{
     padding: 4px;
@@ -92,6 +125,15 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
 }
+
+@media screen and (max-width: 600px) {
+  #place {
+    font-size: 23px;
+  }
+  #adress {
+    font-size: 16px;
+  }
+}
 #btns_info {
   width: 100%;
   display: flex;
@@ -100,8 +142,19 @@
 }
 #btns_info button {
   width: 49%;
-  padding: 10px;
+  padding: 10px 0;
   border-radius: 25px;
+  background: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #btns_info {
+    flex-direction: column;
+  }
+  #btns_info button {
+    width: 100%;
+    margin: 5px 0;
+  }
 }
 #btns_info button:hover {
   cursor: pointer;
@@ -128,6 +181,14 @@
   margin-right: 10%;
   border-radius: 20px;
   box-shadow: 0px 3px 6px rgb(214, 213, 213);
+  font-family: "avenir";
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  #card_2 {
+    margin: 10px 0;
+    height: 270px;
+  }
 }
 #info_suit {
   flex: 1;
@@ -142,10 +203,65 @@
 }
 #suit_tips {
   font-family: "avenir";
+  font-size: 15px;
 }
 
 #uber {
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+#uber #title {
+  font-size: 16px !important;
+  font-family: "avenir_bold" !important;
+}
+
+#uber button {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+}
+#uber_request {
+  font-size: 10px !important;
+}
+#uber a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "avenir_bold";
+}
+#camera_icon {
+  height: 40% !important;
+  width: 50% !important;
+}
+.camera_div {
+  width: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hashtag_title {
+  font-size: 16px;
+  font-family: "avenir_bold";
+}
+#filter_button {
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #f5ccdf;
+  padding: 10px;
+  font-family: "avenir_bold";
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  #camera_icon {
+    height: 30% !important;
+    width: 80px !important;
+  }
 }
