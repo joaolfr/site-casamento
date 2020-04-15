@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e74bc49072077cece79b750f32f8e1c",
+    "revision": "91c3ff641cc52318b435d131704bf97f",
     "url": "/site-casamento/index.html"
   },
   {
-    "revision": "d7cc6288df0f7a01d99c",
-    "url": "/site-casamento/static/css/main.60643e02.chunk.css"
+    "revision": "b2b474ae9e18a805f256",
+    "url": "/site-casamento/static/css/main.a3b21ee6.chunk.css"
   },
   {
-    "revision": "beccda2f1622d0250ae6",
-    "url": "/site-casamento/static/js/2.768e1e66.chunk.js"
+    "revision": "917e8b01024f0bcb3d38",
+    "url": "/site-casamento/static/js/2.05e731c6.chunk.js"
   },
   {
-    "revision": "b51e62edbcf7a9c4f4ad13f506021d3e",
-    "url": "/site-casamento/static/js/2.768e1e66.chunk.js.LICENSE"
+    "revision": "e928fe768baa9832b5bc57eae021f30c",
+    "url": "/site-casamento/static/js/2.05e731c6.chunk.js.LICENSE"
   },
   {
-    "revision": "d7cc6288df0f7a01d99c",
-    "url": "/site-casamento/static/js/main.4e52e806.chunk.js"
+    "revision": "b2b474ae9e18a805f256",
+    "url": "/site-casamento/static/js/main.ee70ed4c.chunk.js"
   },
   {
     "revision": "82ea3219f6f7296f21be",
