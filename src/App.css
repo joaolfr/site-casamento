@@ -10,4 +10,25 @@
 .App {
   height: 100%;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#footer_div {
+  display: flex;
+  width: 100%;
+  background-color: #091531;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  flex-direction: column;
+  padding: 14px;
+  align-items: center;
+  justify-content: center;
+}
+#footer_div p {
+  font-family: "avenir";
 }

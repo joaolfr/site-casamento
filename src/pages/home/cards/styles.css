@@ -9,7 +9,7 @@
 
 .div_cards {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,6 +226,7 @@
   border-radius: 15px;
   border: none;
   width: 100%;
+  cursor: pointer;
 }
 #uber_request {
   font-size: 10px !important;

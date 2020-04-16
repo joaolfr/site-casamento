@@ -10,15 +10,16 @@ export default class resumo extends Component {
         </div>
         <div id="resume_div">
           <div id="resume_header">
-            <span>Sobre a gente...</span>
-            <span>o resumo é</span>
+            <span id="about_span">Sobre a gente...</span>
+            <span id="resume_span_regular">o resumo é</span>
+            <span id="resume_span_bold">o resumo é</span>
           </div>
 
-          <p>Se conheceram no trabalho &</p>
-          <p>Ele tava pegando a fia do chefe &</p>
-          <p>Se apaixonaram &</p>
-          <p>Planejaram uma vida juntos &</p>
-          <p>E vão casar.</p>
+          <p id="p_1">Se conheceram no trabalho &</p>
+          <p id="p_2">Ele tava pegando a fia do chefe &</p>
+          <p id="p_3">Se apaixonaram &</p>
+          <p id="p_4">Planejaram uma vida juntos &</p>
+          <p id="p_5">E vão casar.</p>
         </div>
       </div>
     );
