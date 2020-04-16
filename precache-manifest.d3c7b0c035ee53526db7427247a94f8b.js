@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91c3ff641cc52318b435d131704bf97f",
+    "revision": "7197c7d3c842f9a0208a75e0632158e6",
     "url": "/site-casamento/index.html"
   },
   {
-    "revision": "b2b474ae9e18a805f256",
-    "url": "/site-casamento/static/css/main.a3b21ee6.chunk.css"
+    "revision": "71af5eee64661aaf0467",
+    "url": "/site-casamento/static/css/main.7586ad77.chunk.css"
   },
   {
-    "revision": "917e8b01024f0bcb3d38",
-    "url": "/site-casamento/static/js/2.05e731c6.chunk.js"
+    "revision": "89b2d476dbab7a53f051",
+    "url": "/site-casamento/static/js/2.1aaa51f3.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/site-casamento/static/js/2.05e731c6.chunk.js.LICENSE"
+    "url": "/site-casamento/static/js/2.1aaa51f3.chunk.js.LICENSE"
   },
   {
-    "revision": "b2b474ae9e18a805f256",
-    "url": "/site-casamento/static/js/main.ee70ed4c.chunk.js"
+    "revision": "71af5eee64661aaf0467",
+    "url": "/site-casamento/static/js/main.f9ea8061.chunk.js"
   },
   {
     "revision": "82ea3219f6f7296f21be",
     "url": "/site-casamento/static/js/runtime-main.0f195b02.js"
+  },
+  {
+    "revision": "8077772b2e5f90a79225f535cfb06070",
+    "url": "/site-casamento/static/media/AlohaBold.8077772b.otf"
+  },
+  {
+    "revision": "95faa4d58785fc99ebb80ef148ed9c3c",
+    "url": "/site-casamento/static/media/AlohaRegular.95faa4d5.otf"
   },
   {
     "revision": "9d64c83c8c01e6ed2a981d75d5a46a43",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "241203727536b702aa7ef2ffdf517104",
     "url": "/site-casamento/static/media/plano.24120372.png"
+  },
+  {
+    "revision": "b8ebeaf5258d8ed3a46f179074df3ca3",
+    "url": "/site-casamento/static/media/resumo.b8ebeaf5.png"
   },
   {
     "revision": "520fc56b7f19ed9ba81db1c2eb7ded71",
