@@ -36,7 +36,6 @@ function Home() {
         <Link to="presenca" onClick={() => setNavItem(4)}>
           <NavItem item={4}>Confirme sua presença</NavItem>
         </Link>
-        <hr id="end_menu" />
       </nav>
     </div>
   );

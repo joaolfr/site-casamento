@@ -100,6 +100,7 @@
 @media screen and (max-width: 600px) {
   #confirm_div {
     flex-direction: column;
+    padding-bottom: 50px;
   }
   #confirm_div button {
     width: 300px;
