@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "249baa66c0fdfff3dbf720de8ffd9287",
+    "revision": "fbe98ded580b3aab368bd856206a8abf",
     "url": "/site-casamento/index.html"
   },
   {
-    "revision": "395443b20eafbe28426d",
-    "url": "/site-casamento/static/css/main.6ba32fc7.chunk.css"
+    "revision": "e41f4da889a5e6f82fbb",
+    "url": "/site-casamento/static/css/main.9b191cfb.chunk.css"
   },
   {
     "revision": "89b2d476dbab7a53f051",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site-casamento/static/js/2.1aaa51f3.chunk.js.LICENSE"
   },
   {
-    "revision": "395443b20eafbe28426d",
+    "revision": "e41f4da889a5e6f82fbb",
     "url": "/site-casamento/static/js/main.09146bd4.chunk.js"
   },
   {
