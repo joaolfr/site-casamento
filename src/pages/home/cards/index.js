@@ -31,7 +31,11 @@ export default class cards extends Component {
 
                 <div id="btns_info">
                   <button>
-                    <a targe="_blank" href="https://github.com" id="waze_link">
+                    <a
+                      targe="_blank"
+                      href="https://www.waze.com/ul?ll=-3.77789610%2C-38.49896370&navigate=yes"
+                      id="waze_link"
+                    >
                       Waze
                     </a>
                   </button>
@@ -61,7 +65,7 @@ export default class cards extends Component {
                 <div id="btns_info">
                   <button>
                     <a
-                      href="https://www.google.com/maps/place/Espa%C3%A7o+Hibisco/@-3.8177871,-38.4804816,17z/data=!4m12!1m6!3m5!1s0x7c74567681decef:0xb9e766e96ae4184!2sEspa%C3%A7o+Hibisco!8m2!3d-3.8177871!4d-38.4782929!3m4!1s0x7c74567681decef:0xb9e766e96ae4184!8m2!3d-3.8177871!4d-38.4782929"
+                      href="https://www.waze.com/ul?ll=-3.81778710%2C-38.47829290&navigate=yes"
                       id="waze_link"
                     >
                       Waze
