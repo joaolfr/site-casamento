@@ -36,7 +36,10 @@ export default class cards extends Component {
                     </a>
                   </button>
                   <button>
-                    <a href="https://github.com" id="maps_link">
+                    <a
+                      href="https://www.google.com/maps/place/Igreja+de+Santa+Luzia/@-3.7762703,-38.497991,17.25z/data=!4m8!1m2!2m1!1scapela+santa+luzia+fortaleza!3m4!1s0x0:0xff684db0628f8b57!8m2!3d-3.777587!4d-38.4992748"
+                      id="maps_link"
+                    >
                       Google maps
                     </a>
                   </button>
@@ -57,12 +60,18 @@ export default class cards extends Component {
 
                 <div id="btns_info">
                   <button>
-                    <a href="https://github.com" id="waze_link">
+                    <a
+                      href="https://www.google.com/maps/place/Espa%C3%A7o+Hibisco/@-3.8177871,-38.4804816,17z/data=!4m12!1m6!3m5!1s0x7c74567681decef:0xb9e766e96ae4184!2sEspa%C3%A7o+Hibisco!8m2!3d-3.8177871!4d-38.4782929!3m4!1s0x7c74567681decef:0xb9e766e96ae4184!8m2!3d-3.8177871!4d-38.4782929"
+                      id="waze_link"
+                    >
                       Waze
                     </a>
                   </button>
                   <button>
-                    <a href="https://github.com" id="maps_link">
+                    <a
+                      href="https://www.google.com/maps/place/Espa%C3%A7o+Hibisco/@-3.8177871,-38.4804816,17z/data=!4m12!1m6!3m5!1s0x7c74567681decef:0xb9e766e96ae4184!2sEspa%C3%A7o+Hibisco!8m2!3d-3.8177871!4d-38.4782929!3m4!1s0x7c74567681decef:0xb9e766e96ae4184!8m2!3d-3.8177871!4d-38.4782929"
+                      id="maps_link"
+                    >
                       Google maps
                     </a>
                   </button>
