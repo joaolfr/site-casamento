@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/site-casamento/static/css/main.4d2bb5fa.chunk.css",
-    "main.js": "/site-casamento/static/js/main.f569928f.chunk.js",
-    "main.js.map": "/site-casamento/static/js/main.f569928f.chunk.js.map",
-    "runtime-main.js": "/site-casamento/static/js/runtime-main.0f195b02.js",
-    "runtime-main.js.map": "/site-casamento/static/js/runtime-main.0f195b02.js.map",
-    "static/js/2.1aaa51f3.chunk.js": "/site-casamento/static/js/2.1aaa51f3.chunk.js",
-    "static/js/2.1aaa51f3.chunk.js.map": "/site-casamento/static/js/2.1aaa51f3.chunk.js.map",
-    "index.html": "/site-casamento/index.html",
-    "precache-manifest.b86e26f6340626ddd9f5e027b671935f.js": "/site-casamento/precache-manifest.b86e26f6340626ddd9f5e027b671935f.js",
-    "service-worker.js": "/site-casamento/service-worker.js",
-    "static/css/main.4d2bb5fa.chunk.css.map": "/site-casamento/static/css/main.4d2bb5fa.chunk.css.map",
-    "static/js/2.1aaa51f3.chunk.js.LICENSE": "/site-casamento/static/js/2.1aaa51f3.chunk.js.LICENSE",
-    "static/media/styles.css": "/site-casamento/static/media/sanFranciscoScript.fcae4bc3.otf",
-    "static/media/RECEPCAO.png": "/site-casamento/static/media/RECEPCAO.9d64c83c.png",
-    "static/media/plano.png": "/site-casamento/static/media/plano.24120372.png",
-    "static/media/resumo.png": "/site-casamento/static/media/resumo.b8ebeaf5.png"
+    "main.css": "/static/css/main.08a7f998.chunk.css",
+    "main.js": "/static/js/main.7e863609.chunk.js",
+    "main.js.map": "/static/js/main.7e863609.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f2d1baad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f2d1baad.js.map",
+    "static/js/2.5110ab83.chunk.js": "/static/js/2.5110ab83.chunk.js",
+    "static/js/2.5110ab83.chunk.js.map": "/static/js/2.5110ab83.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e564b34885c533c324a444dbf793aaf1.js": "/precache-manifest.e564b34885c533c324a444dbf793aaf1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.08a7f998.chunk.css.map": "/static/css/main.08a7f998.chunk.css.map",
+    "static/js/2.5110ab83.chunk.js.LICENSE": "/static/js/2.5110ab83.chunk.js.LICENSE",
+    "static/media/styles.css": "/static/media/sanFranciscoScript.fcae4bc3.otf",
+    "static/media/RECEPCAO.png": "/static/media/RECEPCAO.9d64c83c.png",
+    "static/media/plano.png": "/static/media/plano.24120372.png",
+    "static/media/resumo.png": "/static/media/resumo.b8ebeaf5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f195b02.js",
-    "static/js/2.1aaa51f3.chunk.js",
-    "static/css/main.4d2bb5fa.chunk.css",
-    "static/js/main.f569928f.chunk.js"
+    "static/js/runtime-main.f2d1baad.js",
+    "static/js/2.5110ab83.chunk.js",
+    "static/css/main.08a7f998.chunk.css",
+    "static/js/main.7e863609.chunk.js"
   ]
 }
