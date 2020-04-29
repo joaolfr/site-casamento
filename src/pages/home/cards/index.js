@@ -24,7 +24,7 @@ export default class cards extends Component {
               <div id="info">
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <span id="cerimony">Cerimônia</span>
-                  <span id="time">às 16:00</span>
+                  <span id="time">às 16:30</span>
                 </div>
                 <span id="place">Capela Santa Luzia</span>
                 <span id="adress">R. Antonio Rocha, 555</span>
