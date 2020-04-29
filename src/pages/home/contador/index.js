@@ -16,8 +16,10 @@ const Contador = () => {
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
     // Output the result in an element with id="demo"
-    document.getElementById("days").innerHTML = days;
-    document.getElementById("days2").innerHTML = days;
+    try {
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("days2").innerHTML = days;
+    } catch (e) {}
     // If the count down is over, write some text
 
     if (distance < 0) {
@@ -38,11 +40,11 @@ const Contador = () => {
       </div>
 
       <div id="confirm_div">
-        <button>
+        <button disabled>
           <span className="first_span">Confirme sua</span>
           <span className="second_span">presença</span>
         </button>
-        <button>
+        <button disabled>
           <span className="first_span">Lista de </span>
           <span className="second_span">presentes</span>
         </button>

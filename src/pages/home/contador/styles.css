@@ -87,7 +87,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 #confirm_div button:hover {
   transform: translateY(-5px);

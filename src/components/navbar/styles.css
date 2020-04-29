@@ -70,13 +70,19 @@
 }
 
 .app nav {
-  /* height: 24%; */
+  height: 34px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 20px;
+  position: relative;
 }
+.app nav a:nth-child(n + 3) {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 #end_menu {
   display: none;
 }
@@ -101,7 +107,11 @@
   border: 2px solid transparent;
   margin: 10px;
 }
-.app a:hover {
+.app a:nth-child(1):hover {
+  border-bottom: 2px solid #0e0838;
+  transition: 0.2s;
+}
+.app a:nth-child(2):hover {
   border-bottom: 2px solid #0e0838;
   transition: 0.2s;
 }
