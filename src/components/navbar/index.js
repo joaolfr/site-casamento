@@ -20,7 +20,7 @@ function Home() {
 
       <div id="data">
         <hr />
-        <span>29 de agosto de 2020</span>
+        <span>8 de maio de 2021</span>
         <hr />
       </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const Contador = () => {
-  var countDownDate = new Date("Aug 29, 2020 15:37:25").getTime();
+  var countDownDate = new Date("May 08, 2021 15:37:25").getTime();
 
   // eslint-disable-next-line
   var x = setInterval(function () {
