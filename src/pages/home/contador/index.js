@@ -1,4 +1,5 @@
 import React from "react";
+import Soon from "../../../assets/icons/soon.png";
 import "./styles.css";
 
 const Contador = () => {
@@ -40,11 +41,12 @@ const Contador = () => {
       </div>
 
       <div id="confirm_div">
-        <button disabled>
+        <button>
           <span className="first_span">Confirme sua</span>
           <span className="second_span">presença</span>
+          <img src={Soon} alt="soon" id="soon_confirm" />
         </button>
-        <button disabled>
+        <button>
           <span className="first_span">Lista de </span>
           <span className="second_span">presentes</span>
         </button>

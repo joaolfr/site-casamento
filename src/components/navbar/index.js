@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { NavItem } from "./styles.js";
 
 import "./styles.css";
 
@@ -31,13 +30,13 @@ function Home() {
         <Link to="historias" onClick={() => setNavItem(2)}>
           <NavItem item={2}>Nossa história</NavItem>
         </Link>
-        <Link to="presentes" onClick={() => setNavItem(3)}>
+        <Link to="presentes" onClick={() => setNavItem(2)}>
           <NavItem>Lista de presentes</NavItem>
         </Link>
         {/* <Link to="presentes" onClick={() => setNavItem(3)}>
           <NavItem item={3}>Lista de presentes</NavItem>
         </Link> */}
-        <Link to="presenca" onClick={() => setNavItem(4)}>
+        <Link to="presenca" onClick={() => setNavItem(2)}>
           <NavItem>Confirme sua presença</NavItem>
         </Link>
         {/* <Link to="presenca" onClick={() => setNavItem(4)}>

@@ -4,6 +4,7 @@ import CameraIcon from "../../../assets/icons/CAMERA.png";
 import ChurchIcon from "../../../assets/icons/IGREJA.png";
 import Reception from "../../../assets/icons/RECEPCAO.png";
 import Suit from "../../../assets/icons/TRAJE.png";
+import Soon from "../../../assets/icons/soon.png";
 import "./styles.css";
 
 export default class cards extends Component {
@@ -116,7 +117,7 @@ export default class cards extends Component {
                 </span>
               </div>
             </div>
-            <div id="card_2">
+            <div id="card_2" className="suit_card">
               <div id="icon_div">
                 <img src={CameraIcon} alt="camera" id="camera_icon" />
               </div>
@@ -128,6 +129,7 @@ export default class cards extends Component {
                 </div>
                 <button id="filter_button">Teste nosso filtro</button>
               </div>
+              <img src={Soon} alt="soon" id="soon_icon" />
             </div>
           </div>
         </div>

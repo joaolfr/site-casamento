@@ -88,7 +88,7 @@
   align-items: center;
   justify-content: center;
   cursor: not-allowed;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 #confirm_div button:hover {
   transform: translateY(-5px);
@@ -144,4 +144,9 @@
 }
 #footer_div p {
   font-family: "avenir";
+}
+
+#soon_confirm {
+  position: absolute;
+  left: 0;
 }
