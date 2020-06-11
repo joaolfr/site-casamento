@@ -24,7 +24,7 @@
 }
 
 .div_contador {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -46,25 +46,61 @@
   padding: 10px;
 }
 
+#counter_fixed {
+  position: absolute;
+  left: 5px;
+  display: flex;
+}
+#counter_not_fixed {
+  z-index: 99;
+  display: flex;
+  /* position: absolute; */
+}
 #dias_regular {
   font-size: 113px;
   font-family: "aloha";
-  z-index: 99;
+}
+#days {
+  font-size: 113px;
+  font-family: "aloha";
 }
 #dias_bold {
   font-size: 113px;
   font-family: "aloha_bold";
   color: #f5ccdf;
-  position: absolute;
-  left: 7px;
+}
+#days2 {
+  font-size: 113px;
+  font-family: "aloha_bold";
+  color: #f5ccdf;
 }
 
 @media screen and (max-width: 600px) {
   #dias_regular {
-    font-size: 40px;
+    font-size: 70px;
+  }
+  #days {
+    font-size: 70px;
   }
   #dias_bold {
-    font-size: 40px;
+    font-size: 70px;
+  }
+  #days2 {
+    font-size: 70px;
+  }
+  #counter_fixed {
+    flex-direction: column;
+    text-align: center;
+  }
+  #counter_not_fixed {
+    flex-direction: column;
+    text-align: center;
+  }
+  .days_number {
+    font-size: 130px !important;
+  }
+  .days_rest {
+    font-size: 110px !important;
   }
 }
 
@@ -73,8 +109,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
-
+#confirm_div div {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
 #confirm_div button {
   width: 400px;
   height: 239px;
@@ -88,15 +134,15 @@
   align-items: center;
   justify-content: center;
   cursor: not-allowed;
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
-#confirm_div button:hover {
+/* #confirm_div button:hover {
   transform: translateY(-5px);
   transition: 0.3s ease-in-out;
 }
 #confirm_div button:not(:hover) {
   transition: 0.3s;
-}
+} */
 
 @media screen and (max-width: 600px) {
   #confirm_div {
@@ -148,5 +194,12 @@
 
 #soon_confirm {
   position: absolute;
-  left: 0;
+  right: 10px;
+  bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  #soon_confirm {
+    bottom: 0;
+  }
 }

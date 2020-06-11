@@ -277,3 +277,21 @@
 #soon_icon {
   position: absolute;
 }
+
+.big_circle {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  left: 400px;
+  transform-origin: 1px;
+  position: relative;
+  animation: rotate 3s linear infinite;
+  background-color: #efcfdf;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

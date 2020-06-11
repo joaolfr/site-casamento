@@ -32,24 +32,37 @@ const Contador = () => {
   return (
     <div className="div_contador">
       <div id="counter_div">
-        <span id="dias_regular">
-          Faltam <span id="days"></span> dias
-        </span>
-        <span id="dias_bold">
-          Faltam <span id="days2"></span> dias
-        </span>
+        <div id="counter_not_fixed">
+          <span id="dias_regular">Faltam </span>
+          <span id="days" className="days_number"></span>
+          <span id="dias_regular" className="days_rest">
+            dias
+          </span>
+        </div>
+        <div id="counter_fixed">
+          <span id="dias_bold">Faltam </span>
+          <span id="days2" className="days_number"></span>
+          <span id="dias_bold" className="days_rest">
+            dias
+          </span>
+        </div>
       </div>
 
       <div id="confirm_div">
-        <button>
-          <span className="first_span">Confirme sua</span>
-          <span className="second_span">presença</span>
+        <div>
+          <button>
+            <span className="first_span">Confirme sua</span>
+            <span className="second_span">presença</span>
+          </button>
           <img src={Soon} alt="soon" id="soon_confirm" />
-        </button>
-        <button>
-          <span className="first_span">Lista de </span>
-          <span className="second_span">presentes</span>
-        </button>
+        </div>
+        <div>
+          <button>
+            <span className="first_span">Lista de</span>
+            <span className="second_span">presentes</span>
+          </button>
+          <img src={Soon} alt="soon" id="soon_confirm" />
+        </div>
       </div>
 
       <div id="footer_div">

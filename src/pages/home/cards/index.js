@@ -133,6 +133,7 @@ export default class cards extends Component {
             </div>
           </div>
         </div>
+        <div className="big_circle"></div>
       </div>
     );
   }

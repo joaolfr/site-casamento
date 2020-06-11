@@ -30,13 +30,13 @@ function Home() {
         <Link to="historias" onClick={() => setNavItem(2)}>
           <NavItem item={2}>Nossa história</NavItem>
         </Link>
-        <Link to="presentes" onClick={() => setNavItem(2)}>
+        <Link to="historias" onClick={() => setNavItem(3)}>
           <NavItem>Lista de presentes</NavItem>
         </Link>
         {/* <Link to="presentes" onClick={() => setNavItem(3)}>
           <NavItem item={3}>Lista de presentes</NavItem>
         </Link> */}
-        <Link to="presenca" onClick={() => setNavItem(2)}>
+        <Link to="historias" onClick={() => setNavItem(4)}>
           <NavItem>Confirme sua presença</NavItem>
         </Link>
         {/* <Link to="presenca" onClick={() => setNavItem(4)}>
